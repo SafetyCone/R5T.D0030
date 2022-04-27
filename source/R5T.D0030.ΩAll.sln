@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.D0030.Construction", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.D0030.Default", "R5T.D0030.Default\R5T.D0030.Default.csproj", "{AFE6A35E-F481-42AC-A186-680679644758}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{00500613-6035-4414-A661-801D9D5CF9D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{F9D3822A-7D20-4734-A314-1B82C530E4A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +76,20 @@ Global
 		{AFE6A35E-F481-42AC-A186-680679644758}.Release|x64.Build.0 = Release|Any CPU
 		{AFE6A35E-F481-42AC-A186-680679644758}.Release|x86.ActiveCfg = Release|Any CPU
 		{AFE6A35E-F481-42AC-A186-680679644758}.Release|x86.Build.0 = Release|Any CPU
+		{F9D3822A-7D20-4734-A314-1B82C530E4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D3822A-7D20-4734-A314-1B82C530E4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D3822A-7D20-4734-A314-1B82C530E4A3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F9D3822A-7D20-4734-A314-1B82C530E4A3}.Debug|x64.Build.0 = Debug|Any CPU
+		{F9D3822A-7D20-4734-A314-1B82C530E4A3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F9D3822A-7D20-4734-A314-1B82C530E4A3}.Debug|x86.Build.0 = Debug|Any CPU
+		{F9D3822A-7D20-4734-A314-1B82C530E4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D3822A-7D20-4734-A314-1B82C530E4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D3822A-7D20-4734-A314-1B82C530E4A3}.Release|x64.ActiveCfg = Release|Any CPU
+		{F9D3822A-7D20-4734-A314-1B82C530E4A3}.Release|x64.Build.0 = Release|Any CPU
+		{F9D3822A-7D20-4734-A314-1B82C530E4A3}.Release|x86.ActiveCfg = Release|Any CPU
+		{F9D3822A-7D20-4734-A314-1B82C530E4A3}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9D3822A-7D20-4734-A314-1B82C530E4A3} = {00500613-6035-4414-A661-801D9D5CF9D6}
 	EndGlobalSection
 EndGlobal

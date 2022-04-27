@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-using R5T.D0029;
+using R5T.D0029;using R5T.T0064;
 
 
 namespace R5T.D0030.Default
-{
-    public class FileBasedVisualStudioProjectFileProjectReferenceFilePathsProvider : IFileBasedVisualStudioProjectFileProjectReferenceFilePathsProvider
+{[ServiceImplementationMarker]
+    public class FileBasedVisualStudioProjectFileProjectReferenceFilePathsProvider : IFileBasedVisualStudioProjectFileProjectReferenceFilePathsProvider,IServiceImplementation
     {
         private IVisualStudioProjectFileProjectReferenceFilePathsProvider VisualStudioProjectFileProjectReferenceFilePathsProvider { get; }
         private IVisualStudioProjectFileSerializer VisualStudioProjectFileSerializer { get; }
