@@ -23,7 +23,7 @@ namespace R5T.D0030.Default
 
         public async Task<List<string>> GetProjectReferenceFilePaths(string visualStudioProjectFilePath)
         {
-            var projectFile = await this.VisualStudioProjectFileSerializer.DeserializeAsync(visualStudioProjectFilePath);
+            var projectFile = await this.VisualStudioProjectFileSerializer.Deserialize(visualStudioProjectFilePath);
 
             var projectReferenceFilePaths = await this.VisualStudioProjectFileProjectReferenceFilePathsProvider.GetProjectReferenceFilePaths(projectFile);
             return projectReferenceFilePaths;
@@ -31,7 +31,7 @@ namespace R5T.D0030.Default
 
         public async Task<List<string>> GetProjectReferenceFilePathsRecursive(string visualStudioProjectFilePath)
         {
-            var projectFile = await this.VisualStudioProjectFileSerializer.DeserializeAsync(visualStudioProjectFilePath);
+            var projectFile = await this.VisualStudioProjectFileSerializer.Deserialize(visualStudioProjectFilePath);
 
             var projectReferenceFilePaths = await this.VisualStudioProjectFileProjectReferenceFilePathsProvider.GetProjectReferenceFilePathsRecursive(projectFile);
             return projectReferenceFilePaths;
